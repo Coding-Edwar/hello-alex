@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.synopsis {
+    color: #7E8184; /* Light gray */
+    font-style: italic;
+}
+.synopsis em {
+    font-style: normal;
+}
+.page > p:first-of-type {
+    width: 600px;
+    margin: 0 auto;
+}
+.button {
+    display: block;
+    text-decoration: none;
+    align-content: center;
+    color: #FFF;
+    background-color: #5995DA; /* Dark gray */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5d6063;
+    border-radius: 5px;
+
+
+    width: 200px;
+    margin: 20px auto;
+}
+.call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+:active {
+    color: red;
+}
